@@ -1,0 +1,337 @@
+
+
+---------------------------------------------------------------------
+Tracking of the person of interest for Video2Sim, for frames 0 to 180.
+---------------------------------------------------------------------
+
+Project directory: D:\OpenSim\Video2Sim
+
+--> Mean reprojection error for Head point on all frames is 5.4 px, which roughly corresponds to 9.1 mm. 
+--> In average, 0.0 cameras had to be excluded to reach the demanded 20 px error threshold.
+
+Tracked json files are stored in D:\OpenSim\Video2Sim\pose-2d-tracked.
+Tracking took 0.28 s.
+
+
+---------------------------------------------------------------------
+Triangulation of 2D points for Video2Sim, for frames 0 to 180.
+---------------------------------------------------------------------
+
+Project directory: D:\OpenSim\Video2Sim
+
+Mean reprojection error for RHip is 4.1 px (~ 0.007 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RKnee is 6.3 px (~ 0.011 m), reached with 0.09 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RAnkle is 4.2 px (~ 0.007 m), reached with 0.1 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RBigToe is 8.7 px (~ 0.015 m), reached with 0.09 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RSmallToe is 11.4 px (~ 0.019 m), reached with 0.13 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RHeel is 8.4 px (~ 0.014 m), reached with 0.13 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LHip is 4.8 px (~ 0.008 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LKnee is 6.1 px (~ 0.01 m), reached with 0.06 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LAnkle is 4.6 px (~ 0.008 m), reached with 0.07 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LBigToe is 5.4 px (~ 0.009 m), reached with 0.12 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LSmallToe is 6.0 px (~ 0.01 m), reached with 0.16 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LHeel is 8.4 px (~ 0.014 m), reached with 0.06 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for Neck is 3.8 px (~ 0.006 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for Head is 5.4 px (~ 0.009 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for Nose is 4.4 px (~ 0.007 m), reached with 0.01 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RShoulder is 4.1 px (~ 0.007 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RElbow is 5.9 px (~ 0.01 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RWrist is 3.9 px (~ 0.007 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LShoulder is 4.6 px (~ 0.008 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LElbow is 3.6 px (~ 0.006 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LWrist is 4.5 px (~ 0.008 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+
+--> Mean reprojection error for all points on all frames is 5.7 px, which roughly corresponds to 9.7 mm. 
+Cameras were excluded if likelihood was below 0.3 and if the reprojection error was above 20 px.
+In average, 0.05 cameras had to be excluded to reach these thresholds.
+Camera cam1 was excluded 2% of the time, Camera cam3: 1%, Camera cam2: 1%, and Camera cam4: 1%.
+
+3D coordinates are stored at D:\OpenSim\Video2Sim\pose-3d\Video2Sim_0-180.trc.
+Triangulation took 2.56 s.
+
+
+---------------------------------------------------------------------
+Filtering 3D coordinates for Video2Sim, for frames 0 to 180.
+---------------------------------------------------------------------
+
+Project directory: D:\OpenSim\Video2Sim
+--> Filter type: Gaussian. Standard deviation kernel: 3
+Filtered 3D coordinates are stored at D:\OpenSim\Video2Sim\pose-3d\Video2Sim_filt_0-180.trc.
+
+
+---------------------------------------------------------------------
+Tracking of the person of interest for Video2Sim, for all frames.
+---------------------------------------------------------------------
+
+Project directory: D:\OpenSim\Video2Sim
+
+--> Mean reprojection error for Neck point on all frames is 5.1 px, which roughly corresponds to 8.6 mm. 
+--> In average, 0.21 cameras had to be excluded to reach the demanded 20 px error threshold.
+
+Tracked json files are stored in D:\OpenSim\Video2Sim\pose-2d-tracked.
+Tracking took 0.54 s.
+
+
+---------------------------------------------------------------------
+Triangulation of 2D points for Video2Sim, for all frames.
+---------------------------------------------------------------------
+
+Project directory: D:\OpenSim\Video2Sim
+
+Mean reprojection error for CHip is 6.6 px (~ 0.011 m), reached with 0.54 excluded cameras. 
+Frames ['309:309'] were interpolated.
+Frames ['311:348'] could not be interpolated: consider adjusting thresholds.
+Mean reprojection error for RHip is 4.5 px (~ 0.008 m), reached with 0.54 excluded cameras. 
+Frames ['254:254', '308:309', '314:315', '322:322', '348:348'] were interpolated.
+Frames ['324:345'] could not be interpolated: consider adjusting thresholds.
+Mean reprojection error for RKnee is 4.6 px (~ 0.008 m), reached with 0.68 excluded cameras. 
+Frames [] were interpolated.
+Frames ['308:348'] could not be interpolated: consider adjusting thresholds.
+Mean reprojection error for RAnkle is 5.8 px (~ 0.01 m), reached with 0.32 excluded cameras. 
+Frames ['308:309', '325:327', '330:330'] were interpolated.
+Mean reprojection error for RBigToe is 7.6 px (~ 0.013 m), reached with 0.53 excluded cameras. 
+Frames ['306:309'] were interpolated.
+Frames ['311:348'] could not be interpolated: consider adjusting thresholds.
+Mean reprojection error for RSmallToe is 9.0 px (~ 0.015 m), reached with 0.68 excluded cameras. 
+Frames ['306:309'] were interpolated.
+Frames ['311:348'] could not be interpolated: consider adjusting thresholds.
+Mean reprojection error for RHeel is 7.5 px (~ 0.013 m), reached with 0.53 excluded cameras. 
+Frames ['306:309'] were interpolated.
+Frames ['311:323', '325:348'] could not be interpolated: consider adjusting thresholds.
+Mean reprojection error for LHip is 4.7 px (~ 0.008 m), reached with 0.48 excluded cameras. 
+Frames [] were interpolated.
+Frames ['308:348'] could not be interpolated: consider adjusting thresholds.
+Mean reprojection error for LKnee is 5.5 px (~ 0.009 m), reached with 0.48 excluded cameras. 
+Frames ['308:311', '319:319', '334:337', '340:341', '344:346', '348:348'] were interpolated.
+Frames ['321:332'] could not be interpolated: consider adjusting thresholds.
+Mean reprojection error for LAnkle is 6.0 px (~ 0.01 m), reached with 0.52 excluded cameras. 
+Frames [] were interpolated.
+Frames ['306:348'] could not be interpolated: consider adjusting thresholds.
+Mean reprojection error for LBigToe is 4.4 px (~ 0.007 m), reached with 0.62 excluded cameras. 
+Frames [] were interpolated.
+Frames ['300:348'] could not be interpolated: consider adjusting thresholds.
+Mean reprojection error for LSmallToe is 5.3 px (~ 0.009 m), reached with 0.64 excluded cameras. 
+Frames [] were interpolated.
+Frames ['301:348'] could not be interpolated: consider adjusting thresholds.
+Mean reprojection error for LHeel is 7.2 px (~ 0.012 m), reached with 0.58 excluded cameras. 
+Frames [] were interpolated.
+Frames ['303:348'] could not be interpolated: consider adjusting thresholds.
+Mean reprojection error for Neck is 4.9 px (~ 0.008 m), reached with 0.23 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for Nose is 4.6 px (~ 0.008 m), reached with 0.68 excluded cameras. 
+Frames ['226:228', '231:235', '257:266', '269:269'] were interpolated.
+Frames ['318:348'] could not be interpolated: consider adjusting thresholds.
+Mean reprojection error for RShoulder is 4.7 px (~ 0.008 m), reached with 0.9 excluded cameras. 
+Frames ['269:269'] were interpolated.
+Frames ['225:236', '255:267', '310:348'] could not be interpolated: consider adjusting thresholds.
+Mean reprojection error for RElbow is 6.4 px (~ 0.011 m), reached with 1.4 excluded cameras. 
+Frames [] were interpolated.
+Frames ['327:346'] could not be interpolated: consider adjusting thresholds.
+Mean reprojection error for RWrist is 5.2 px (~ 0.009 m), reached with 1.41 excluded cameras. 
+Frames ['261:261', '269:270'] were interpolated.
+Frames ['276:348'] could not be interpolated: consider adjusting thresholds.
+Mean reprojection error for LShoulder is 5.5 px (~ 0.009 m), reached with 0.21 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LElbow is 4.6 px (~ 0.008 m), reached with 0.47 excluded cameras. 
+Frames ['311:311'] were interpolated.
+Frames ['313:348'] could not be interpolated: consider adjusting thresholds.
+Mean reprojection error for LWrist is 4.0 px (~ 0.007 m), reached with 0.29 excluded cameras. 
+Frames ['257:257'] were interpolated.
+
+--> Mean reprojection error for all points on all frames is 5.7 px, which roughly corresponds to 9.7 mm. 
+Cameras were excluded if likelihood was below 0.3 and if the reprojection error was above 15 px.
+In average, 0.61 cameras had to be excluded to reach these thresholds.
+Camera cam2 was excluded 9% of the time, Camera cam4: 4%, Camera cam3: 7%, and Camera cam1: 11%.
+
+3D coordinates are stored at D:\OpenSim\Video2Sim\pose-3d\Video2Sim_0-349.trc.
+Triangulation took 7.03 s.
+
+
+---------------------------------------------------------------------
+Filtering 3D coordinates for Video2Sim, for all frames.
+---------------------------------------------------------------------
+
+Project directory: D:\OpenSim\Video2Sim
+--> Filter type: Butterworth low-pass. Order 4, Cut-off frequency 6 Hz.
+Filtered 3D coordinates are stored at D:\OpenSim\Video2Sim\pose-3d\Video2Sim_filt_0-349.trc.
+
+
+---------------------------------------------------------------------
+Tracking of the person of interest for Video2Sim, for all frames.
+---------------------------------------------------------------------
+
+Project directory: D:\OpenSim\Video2Sim
+
+--> Mean reprojection error for Neck point on all frames is 4.1 px, which roughly corresponds to 15.4 mm. 
+--> In average, 0.0 cameras had to be excluded to reach the demanded 20 px error threshold.
+
+Tracked json files are stored in D:\OpenSim\Video2Sim\pose-2d-tracked.
+Tracking took 2.86 s.
+
+
+---------------------------------------------------------------------
+Triangulation of 2D points for Video2Sim, for all frames.
+---------------------------------------------------------------------
+
+Project directory: D:\OpenSim\Video2Sim
+
+Mean reprojection error for RHip is 6.2 px (~ 0.023 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RKnee is 5.9 px (~ 0.022 m), reached with 0.01 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RAnkle is 4.9 px (~ 0.018 m), reached with 0.03 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RBigToe is 5.8 px (~ 0.022 m), reached with 0.11 excluded cameras. 
+Frames ['637:638', '1163:1163', '1456:1456'] were interpolated.
+Mean reprojection error for RSmallToe is 6.2 px (~ 0.023 m), reached with 0.11 excluded cameras. 
+Frames ['637:638', '1161:1161', '1163:1163'] were interpolated.
+Mean reprojection error for RHeel is 5.9 px (~ 0.022 m), reached with 0.05 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LHip is 8.3 px (~ 0.031 m), reached with 0.01 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LKnee is 6.2 px (~ 0.023 m), reached with 0.01 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LAnkle is 5.6 px (~ 0.021 m), reached with 0.05 excluded cameras. 
+Frames ['18:18', '20:20', '1294:1294'] were interpolated.
+Mean reprojection error for LBigToe is 6.5 px (~ 0.024 m), reached with 0.28 excluded cameras. 
+Frames ['18:18', '20:20', '104:106', '1291:1292', '1294:1294', '1488:1488', '1619:1619'] were interpolated.
+Mean reprojection error for LSmallToe is 6.5 px (~ 0.024 m), reached with 0.31 excluded cameras. 
+Frames ['18:18', '20:20', '104:106', '1292:1292', '1294:1294', '1488:1488'] were interpolated.
+Mean reprojection error for LHeel is 6.3 px (~ 0.024 m), reached with 0.11 excluded cameras. 
+Frames ['18:18', '20:20', '1291:1294', '1489:1489', '1618:1618'] were interpolated.
+Mean reprojection error for Neck is 4.1 px (~ 0.015 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for Head is 5.1 px (~ 0.019 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for Nose is 4.8 px (~ 0.018 m), reached with 0.86 excluded cameras. 
+Frames ['174:176', '178:178', '196:198', '200:200', '208:208', '211:211', '213:213', '2036:2038'] were interpolated.
+Mean reprojection error for RShoulder is 4.6 px (~ 0.017 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RElbow is 5.5 px (~ 0.021 m), reached with 0.08 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RWrist is 5.8 px (~ 0.022 m), reached with 0.18 excluded cameras. 
+Frames ['1980:1980', '1982:1983', '1985:1985'] were interpolated.
+Mean reprojection error for LShoulder is 6.8 px (~ 0.026 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LElbow is 8.1 px (~ 0.03 m), reached with 0.81 excluded cameras. 
+Frames ['88:89', '700:700', '703:703', '705:706', '729:729', '732:732'] were interpolated.
+Mean reprojection error for LWrist is 6.8 px (~ 0.026 m), reached with 0.9 excluded cameras. 
+Frames ['703:703', '705:706', '729:729', '732:732', '736:736', '853:854', '872:873', '879:879', '1386:1386', '1704:1704', '1727:1727', '1935:1935'] were interpolated.
+
+--> Mean reprojection error for all points on all frames is 6.0 px, which roughly corresponds to 22.6 mm. 
+Cameras were excluded if likelihood was below 0.3 and if the reprojection error was above 15 px.
+In average, 0.19 cameras had to be excluded to reach these thresholds.
+Camera cam04 was excluded 5% of the time, Camera cam03: 3%, Camera cam02: 2%, and Camera cam01: 1%.
+
+3D coordinates are stored at D:\OpenSim\Video2Sim\pose-3d\Video2Sim_0-2091.trc.
+Triangulation took 29.29 s.
+
+
+---------------------------------------------------------------------
+Filtering 3D coordinates for Video2Sim, for all frames.
+---------------------------------------------------------------------
+
+Project directory: D:\OpenSim\Video2Sim
+--> Filter type: Butterworth low-pass. Order 4, Cut-off frequency 6 Hz.
+Filtered 3D coordinates are stored at D:\OpenSim\Video2Sim\pose-3d\Video2Sim_filt_0-2091.trc.
+
+
+---------------------------------------------------------------------
+Tracking of the person of interest for Video2Sim, for frames 0 to 180.
+---------------------------------------------------------------------
+
+Project directory: D:\OpenSim\Video2Sim
+
+--> Mean reprojection error for Head point on all frames is 5.4 px, which roughly corresponds to 9.1 mm. 
+--> In average, 0.0 cameras had to be excluded to reach the demanded 20 px error threshold.
+
+Tracked json files are stored in D:\OpenSim\Video2Sim\pose-2d-tracked.
+Tracking took 0.27 s.
+
+
+---------------------------------------------------------------------
+Triangulation of 2D points for Video2Sim, for frames 0 to 180.
+---------------------------------------------------------------------
+
+Project directory: D:\OpenSim\Video2Sim
+
+Mean reprojection error for RHip is 4.1 px (~ 0.007 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RKnee is 6.3 px (~ 0.011 m), reached with 0.09 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RAnkle is 4.2 px (~ 0.007 m), reached with 0.1 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RBigToe is 8.7 px (~ 0.015 m), reached with 0.09 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RSmallToe is 11.4 px (~ 0.019 m), reached with 0.13 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RHeel is 8.4 px (~ 0.014 m), reached with 0.13 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LHip is 4.8 px (~ 0.008 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LKnee is 6.1 px (~ 0.01 m), reached with 0.06 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LAnkle is 4.6 px (~ 0.008 m), reached with 0.07 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LBigToe is 5.4 px (~ 0.009 m), reached with 0.12 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LSmallToe is 6.0 px (~ 0.01 m), reached with 0.16 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LHeel is 8.4 px (~ 0.014 m), reached with 0.06 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for Neck is 3.8 px (~ 0.006 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for Head is 5.4 px (~ 0.009 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for Nose is 4.4 px (~ 0.007 m), reached with 0.01 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RShoulder is 4.1 px (~ 0.007 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RElbow is 5.9 px (~ 0.01 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for RWrist is 3.9 px (~ 0.007 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LShoulder is 4.6 px (~ 0.008 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LElbow is 3.6 px (~ 0.006 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+Mean reprojection error for LWrist is 4.5 px (~ 0.008 m), reached with 0.0 excluded cameras. 
+Frames [] were interpolated.
+
+--> Mean reprojection error for all points on all frames is 5.7 px, which roughly corresponds to 9.7 mm. 
+Cameras were excluded if likelihood was below 0.3 and if the reprojection error was above 20 px.
+In average, 0.05 cameras had to be excluded to reach these thresholds.
+Camera cam1 was excluded 2% of the time, Camera cam3: 1%, Camera cam2: 1%, and Camera cam4: 1%.
+
+3D coordinates are stored at D:\OpenSim\Video2Sim\pose-3d\Video2Sim_0-180.trc.
+Triangulation took 2.54 s.
+
+
+---------------------------------------------------------------------
+Filtering 3D coordinates for Video2Sim, for frames 0 to 180.
+---------------------------------------------------------------------
+
+Project directory: D:\OpenSim\Video2Sim
+--> Filter type: Gaussian. Standard deviation kernel: 3
+Filtered 3D coordinates are stored at D:\OpenSim\Video2Sim\pose-3d\Video2Sim_filt_0-180.trc.
