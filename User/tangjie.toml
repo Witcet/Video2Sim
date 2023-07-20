@@ -6,7 +6,7 @@
 
 [project]
 project_dir = '' # BETWEEN SINGLE QUOTES! # If empty, project dir is current dir
-frame_range = [0,180] #For example [10,300], or [] for all frames
+frame_range = [0,240] #For example [10,300], or [] for all frames
 frame_rate = 30 #Hz
 
 rawImg_folder_name = 'raw-2d'
@@ -44,15 +44,15 @@ type = 'checkerboard' # 'qca', 'checkerboard', 'arucoboard', or 'charucoboard'
 [2d-tracking]
 tracked_keypoint = 'Head' # If the neck is not detected by the pose_model, check skeleton.py
 # and choose a stable point for tracking the person of interest (e.g., 'right_shoulder' with BLAZEPOSE)
-error_threshold_tracking = 20# px
+error_threshold_tracking = 40# px
 
 [3d-triangulation]
-error_threshold_triangulation = 20 # px
+error_threshold_triangulation = 40 # px
 likelihood_threshold = 0.3
 min_cameras_for_triangulation = 2
 interpolation = 'cubic' #linear, slinear, quadratic, cubic, or none
 # 'none' if you don't want to interpolate missing points
-interp_if_gap_smaller_than = 20 # do not interpolate bigger gaps
+interp_if_gap_smaller_than = 30 # do not interpolate bigger gaps
 show_interp_indices = true # true or false (lowercase). For each keypoint, return the frames that need to be interpolated
 
 [3d-filtering]

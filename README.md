@@ -1,7 +1,7 @@
 # Video2Sim
 从多相机视频到Opensim模型运动
 
-下载后在项目根目录下创建pose-2d文件夹
+下载后在项目根目录下创建raw-2d和pose-2d文件夹
 
 在OpenPose/bin文件夹下起终端运行：
 bin\OpenPoseDemo.exe --model_pose BODY_25B --video D:\OpenSim\Video2Sim\raw-2d\cam1.avi --write_json D:\OpenSim\Video2Sim\pose-2d\pose_cam1_json

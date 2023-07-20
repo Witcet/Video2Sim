@@ -37,13 +37,13 @@ def rename_video(source_folder):
 if __name__ == "__main__":
     shutil.rmtree("raw-2d")
     shutil.rmtree("pose-2d")
-    # shutil.rmtree("pose-2d-tracked")
-    # shutil.rmtree("pose-3d")
+    shutil.rmtree("pose-2d-tracked")
+    shutil.rmtree("pose-3d")
 
     os.makedirs("raw-2d")
     os.makedirs("pose-2d")
 
-    rename_video(r"C:\Users\29018\Desktop\实验方案\record_video\20230620\output\t909_1")
+    rename_video(r"D:\OpenSim\Datasetall\aisland_data\fall_detection\camera\jmx\801_1")
     # video_folder = r"C:\Users\29018\Desktop\20230620\output"
     # each_test_folder = os.listdir(video_folder)
     # for etf in each_test_folder:

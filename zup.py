@@ -30,5 +30,3 @@ def zup():
     with open(tempfilename, 'w') as file:
         file.writelines(metadata)
         dataframe.to_csv(file, sep='\t', index=False)
-
-zup()

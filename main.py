@@ -1,8 +1,7 @@
 import os
 from Pose2Sim.Pose2Sim import read_config_file
-from zup import zup
 from Pose2Sim import Pose2Sim
-import re
+from zup import zup
 
 
 config_path = os.path.join('User', 'tangjie.toml')
